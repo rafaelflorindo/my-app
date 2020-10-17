@@ -1,4 +1,11 @@
-body {
+*{margin:0; box-sizing: border-box;}
+
+.TabelaUsuarios{float: left; width: 80%; margin: 30px; text-align: center;}
+  .TabelaUsuarios thead tr:first-child{background: black; color: white; font-weight: bold;}
+  .TabelaUsuarios tbody tr:nth-child(2n){background: #ccc;}
+  
+  
+  /*{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +18,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*/
